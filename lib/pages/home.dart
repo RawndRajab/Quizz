@@ -71,23 +71,23 @@ class _HomePageState extends State<HomePage> {
               SizedBox(
                 height: 24,
               ),
-              MyLevelWidget(
-                function: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) {
-                        return LevelDescription();
-                      },
-                    ),
-                  );
-                },
-                icon: Icons.check,
-                title: 'True or False',
-                subtitle: 'Level 1',
-                image: 'assets/images/bags.png',
-                colors: [kL1, kL12],
-              ),
+              // MyLevelWidget(
+              //   function: () {
+              //     Navigator.push(
+              //       context,
+              //       MaterialPageRoute(
+              //         builder: (context) {
+              //           return LevelDescription();
+              //         },
+              //       ),
+              //     );
+              //   },
+              //   icon: Icons.check,
+              //   title: 'True or False',
+              //   subtitle: 'Level 1',
+              //   image: 'assets/images/bags.png',
+              //   colors: [kL1, kL12],
+              // ),
               MyLevelWidget(
                 function: () {},
                 icon: Icons.play_arrow,
